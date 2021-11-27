@@ -1,0 +1,22 @@
+{
+  "name": "robospin",
+  "version": "1.0.0",
+  "description": "Repository for the RoboSpin Twitch Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Checkler3/RoboSpin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Checkler3/RoboSpin/issues"
+  },
+  "homepage": "https://github.com/Checkler3/RoboSpin#readme",
+  "dependencies": {
+    "tmi.js": "^1.8.5"
+  }
+}
