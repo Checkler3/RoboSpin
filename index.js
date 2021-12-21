@@ -1,17 +1,18 @@
 const tmi = require('tmi.js');
+const config = require('./config.json');
+// import { BOT , TOKEN, CHANNEL } from '.auth.js';
 
 // Configuration Options 
 // Login, Debug, Channels, etc..
 const options = {
     identity: {
-        username: 'robospin',
-        password: 'oauth:wrni3qs3pdo4mzz4zul51fw5io4nhg',
+        username: config.botname,
+        password: config.token,
     },
     options: {
         debug: true,
     },
-    channels: 
-        ['SpinnyHat']
+    channels: config.channels
 };
 
 // Initialize the bot
